@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+
 :root {
   --primary-color: #49243e;
   --primary-color-dark:#dbafa0;
@@ -26,7 +27,7 @@ body {
 
 nav {
   width: 100%;
-  position: fixed;
+  position:fixed ;
   top: 0;
   left: 0;
   background-color: #ffffff;
@@ -86,6 +87,17 @@ ul li a:hover {
   border-top-color: var(--secondary-color);
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color);
+}
+
+.social-media-icons a {
+  color: #333; /* Default color */
+  margin: 0 10px;
+  font-size: 24px; /* Size of icons */
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #0073b1; /* Color change on hover */
 }
 
 .section {
@@ -183,7 +195,7 @@ ul li a:hover {
 }
 
 .image img {
-  width: min(25rem, 90%);
+  width: min(15rem, 90%);
   border-radius: 15%;
 }
 
