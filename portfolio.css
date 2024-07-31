@@ -197,6 +197,8 @@ ul li a:hover {
 .image img {
   width: min(15rem, 90%);
   border-radius: 15%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (width < 500px) {
