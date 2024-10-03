@@ -194,12 +194,13 @@ ul li a:hover {
   place-items: center;
 }
 
-.image img {
-  width: min(15rem, 90%);
-  border-radius: 15%;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.profile-image {
+  width: 290px; /* Adjust size as needed */
+  height: 290px; /* Same as width to make it a perfect square */
+  border-radius: 50%; /* This makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
 }
+
 
 @media (width < 500px) {
   nav .checkbox {
